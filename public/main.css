@@ -1,0 +1,44 @@
+body{
+  background-image: url("images/backgroundImage.png");
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  margin-left: 10px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+  margin-top: 400px;
+  margin-left: 10px;
+  cursor: pointer;
+  position: fixed;
+}
+button{
+  margin-right: 5px;
+  border-radius: 5%;
+  border: none;
+  height: 24px;
+  background-color: bisque;
+}
+button:hover{
+  background-color: rgb(229, 194, 99);
+  cursor: pointer;
+}
+.jokes{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.teller{
+  margin-left: 800px;
+  margin-right: 100px;
+}
