@@ -20,7 +20,7 @@ app.post('/', async(req, res)=>{
       jokeText = response.data.joke;
     } else if (response.data.type === "twopart") {
       jokeText = response.data.delivery;
-      jokeSetup = response.data.setup
+      jokeSetup = response.data.setup;
     }
   }
   catch(error){
